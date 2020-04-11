@@ -1,0 +1,19 @@
+.AboutMe {
+    text-align: center;
+    background-color: #c0baae;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .AboutMe-header {
+    font-size: calc(30px + 2vmin);
+    color: #fcc662;
+  }
+
+  body {
+      font-size: calc(2px + 2vmin);
+      color: #fcc662; 
+  }

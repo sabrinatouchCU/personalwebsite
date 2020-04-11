@@ -1,0 +1,14 @@
+.ContactMe {
+    text-align: center;
+  }
+  
+  .ContactMe-header {
+    background-color: #73607c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 2vmin);
+    color: #fa8d70;
+  }

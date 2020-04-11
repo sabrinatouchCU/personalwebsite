@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Landing from './components/Landing/Landing';
 import * as serviceWorker from './serviceWorker';
+
+import Landing from './components/Landing/Landing';
+import AboutMe from './components/AboutMe/AboutMe';
+import Resume from './components/Resume/Resume';
+import ContactMe from './components/ContactMe/ContactMe';
 
 ReactDOM.render(
   <React.StrictMode>
     <Landing />
+    <AboutMe />
+    <Resume />
+    <ContactMe />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-/* .Landing-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .Landing-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .Landing-header {
   background-color: #fbf3e9;
   min-height: 100vh;
@@ -26,13 +15,6 @@
 
 .Landing-link {
   color: #73607c;
+  font-size: calc(10px + 2vmin);
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
