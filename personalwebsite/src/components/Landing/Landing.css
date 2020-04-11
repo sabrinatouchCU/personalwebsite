@@ -1,20 +1,27 @@
 .Landing {
-  text-align: center;
-}
-
-.Landing-header {
   background-color: #fbf3e9;
-  min-height: 100vh;
+  display: block;
+  min-height: 90vh;
+  min-width: 90vh;
+  margin: 1vh;
+
+  text-align: center;
+
   display: flex;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(30px + 2vmin);
-  color: #fcc662;
 }
 
-.Landing-link {
+/* .Landing-link {
   color: #73607c;
   font-size: calc(10px + 2vmin);
+} */
+
+.Landing-header {
+  font-size: 2vh;
+  justify-content: center;
+  color: #fa8d70;
 }
 
